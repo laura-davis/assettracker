@@ -1,9 +1,17 @@
 import * as React from 'react';
-import { Text } from 'react-native-paper';
+import {View} from 'react-native';
+import { Headline } from 'react-native-paper';
+import SearchByContentIdCard from "./SearchByContentIdCard";
+import SearchByUriIdCard from "./SearchByUriIdCard";
+import SearchByUuidCard from "./SearchByUuidCard";
 
 export default function Search() {
-
     return (
-        <Text>Search</Text>
+        <View>
+            <Headline>Search</Headline>
+            <SearchByContentIdCard/>
+            <SearchByUriIdCard/>
+            <SearchByUuidCard/>
+        </View>
     );
 }
