@@ -3,7 +3,7 @@ import {Button, Card, TextInput} from 'react-native-paper';
 
 const SearchByUriIdCard = () => (
     <Card>
-        <Card.Title title="Search by ContentId"/>
+        <Card.Title title="Search by UriId"/>
         <Card.Content>
             <TextInput
                 label='UriId'
