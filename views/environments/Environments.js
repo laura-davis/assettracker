@@ -1,9 +1,13 @@
 import * as React from 'react';
-import {Headline} from 'react-native-paper';
+import {View, Text} from 'react-native';
+import { Headline } from 'react-native-paper';
+import EnvironmentsList from "./EnvironmentsList";
 
 export default function Environments() {
-
     return (
-        <Headline>Environments</Headline>
+        <View>
+            <Headline>Environments</Headline>
+            <EnvironmentsList/>
+        </View>
     );
 }

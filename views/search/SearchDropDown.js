@@ -21,7 +21,8 @@ export default class SearchDropDown extends React.Component {
                     onPress={this._handlePress}>
                     <RadioButton.Group
                         onValueChange={value => this.setState({value})}
-                        value={this.state.value}>
+                        value={this.state.value}
+                        >
                         <RadioButton.Item label="ContentId" value="contentId"/>
                         <RadioButton.Item label="Uuid" value="uuid"/>
                         <RadioButton.Item label="UriId" value="UriId"/>
