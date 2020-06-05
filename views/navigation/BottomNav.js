@@ -1,16 +1,16 @@
 import * as React from 'react';
 import {BottomNavigation, Text} from 'react-native-paper';
-import Home from './Home';
-import Search from "./Search.js";
-import Notifications from './Notifications';
+import Environments from '../environments/Environments';
+import Search from "../search/Search.js";
+import WatchedAssets from '../watched/WatchedAssets';
 
 export default class BottomNav extends React.Component {
     state = {
         index: 0,
         routes: [
-            {key: 'home', title: 'Home', icon: 'home'},
+            {key: 'home', title: 'Environments', icon: 'home'},
             {key: 'search', title: 'Search', icon: 'magnify'},
-            {key: 'notifications', title: 'Notifications', icon: 'bell-ring'},
+            {key: 'watched', title: 'Watched Assets', icon: 'alarm-light'},
         ],
     };
 
@@ -20,9 +20,9 @@ export default class BottomNav extends React.Component {
                 navigationState={this.state}
                 onIndexChange={index => this.setState({index})}
                 renderScene={BottomNavigation.SceneMap({
-                    home: Home,
+                    home: Environments,
                     search: Search,
-                    notifications: Notifications
+                    watched: WatchedAssets
                 })}/>
         );
     }
