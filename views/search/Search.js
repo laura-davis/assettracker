@@ -5,17 +5,25 @@ import SearchDropDown from "./SearchDropDown";
 import SearchByIdCard from "./SearchByIdCard";
 import EnvironmentsPopUp from "../environments/EnvironmentsPopUp";
 import SearchOutput from "./SearchOutput";
+import Camera from "./Camera";
 
 export default function Search() {
     return (
         <View>
-            <EnvironmentsPopUp/>
+            {/*<EnvironmentsPopUp/>*/}
             <Headline>Search</Headline>
-            <SearchDropDown/>
             <Text>&nbsp;</Text>
-            <SearchByIdCard/>
             <Text>&nbsp;</Text>
-            <SearchOutput/>
+            <Text>&nbsp;</Text>
+
+            <Camera/>
+            {/*<SearchDropDown/>*/}
+            {/*<Text>&nbsp;</Text>*/}
+            {/*<SearchByIdCard/>*/}
+            {/*<Text>&nbsp;</Text>*/}
+            {/*<Text>&nbsp;</Text>*/}
+            {/*<Text>&nbsp;</Text>*/}
+            {/*<SearchOutput/>*/}
         </View>
     );
 }
