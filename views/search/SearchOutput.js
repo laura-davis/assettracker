@@ -1,13 +1,15 @@
 import * as React from 'react';
-import {Card, Headline, ProgressBar, Avatar} from 'react-native-paper';
+import {Card, Headline, Avatar} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { View, Text, ScrollView } from 'react-native';
+import AppProgressBar from './AppProgressBar';
+
 const SearchOutput = () => (
     <Card>
         <Headline>Results</Headline>
             <View>
                     <Text>&nbsp;</Text>
-        <ProgressBar/>
+        <AppProgressBar/>
                     <Text>&nbsp;</Text>
             </View>
         <ScrollView>

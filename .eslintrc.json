@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "env": {
+      "browser": true,
+      "es2020": true
+    },
+    "extends": [
+      "plugin:react/recommended",
+      "standard",
+      "eslint:recommended",
+      "plugin:react-hooks/recommended"
+    ],
+    "parser": "babel-eslint"
+  },
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "rules": {
+  }
+}
+
