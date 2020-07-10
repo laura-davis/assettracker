@@ -1,10 +1,16 @@
 {
-  "name": "assettracker",
-  "displayName": "assettracker",
+  "name": "gonzales-asset-tracker",
+  "displayName": "GATer",
   "expo": {
-    "name": "assettracker",
-    "slug": "expo-template-bare",
+    "name": "GATer",
+    "slug": "GATer",
     "version": "1.0.0",
+    "icon": "./icon.png",
+    "splash": {
+      "image": "./splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "platforms": [
       "ios",
       "android",

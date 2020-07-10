@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { ProgressBar, Colors } from 'react-native-paper';
+import { ProgressBar } from 'react-native-paper';
 
 const AppProgressBar = () => (
-    <ProgressBar progress={0.5} />
+    <ProgressBar progress={0.66} />
 );
 
 export default AppProgressBar;

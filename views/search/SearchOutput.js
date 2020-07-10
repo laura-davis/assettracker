@@ -7,14 +7,14 @@ import AppProgressBar from './AppProgressBar';
 const SearchOutput = () => (
     <Card>
         <Headline>Results</Headline>
-            <View>
-                    <Text>&nbsp;</Text>
-        <AppProgressBar/>
-                    <Text>&nbsp;</Text>
-            </View>
+        <View>
+            <Text>&nbsp;</Text>
+            <AppProgressBar/>
+            <Text>&nbsp;</Text>
+        </View>
         <ScrollView>
             <View style={{justifyContent: "center", alignItems: "center"}}>
-        <Avatar.Text size={50} label="1" style={{alignItems: 'center', justifyContent:'center'}} />
+                <Avatar.Text size={50} label="1" style={{alignItems: 'center', justifyContent:'center'}} />
                 <Icon name='dots-vertical' size={25}
                 />
                 <Text>Received by Gonzales OTT</Text>

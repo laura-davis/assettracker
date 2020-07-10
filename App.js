@@ -7,10 +7,9 @@ export default function App() {
     return (
         <PaperProvider>
             <Appbar.Header>
-                <Appbar.Content title="Asset Tracking Dashboard"/>
+                <Appbar.Content title="Gonzales Asset Tracker"/>
             </Appbar.Header>
             <BottomNav/>
         </PaperProvider>
     );
 }
-
